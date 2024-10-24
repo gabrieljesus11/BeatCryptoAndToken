@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "interfaceID",
+						"type": "bytes4"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/beatTicket.sol": "IERC165"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/beatTicket.sol": {
+			"keccak256": "0x931a2065c1c8a8b411c4df71e77684d8beef5a3fef6093a17c06267455c53f46",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e533949770d52c138f11f93cca6fff3efb60f56914c7b936717c72854ffb0e02",
+				"dweb:/ipfs/QmTMQmyXAbhpisUjdepku6tbySXuiFCnMWMhzy6YdWH3Mt"
+			]
+		}
+	},
+	"version": 1
+}

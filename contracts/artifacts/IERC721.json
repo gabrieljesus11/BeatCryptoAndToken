@@ -49,6 +49,7 @@
 		},
 		"gasEstimates": null,
 		"methodIdentifiers": {
+			"_transferFrom(address,address,uint256)": "cb712535",
 			"approve(address,uint256)": "095ea7b3",
 			"balanceOf(address)": "70a08231",
 			"getApproved(uint256)": "081812fc",
@@ -62,6 +63,29 @@
 		}
 	},
 	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "from",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "to",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "tokenID",
+					"type": "uint256"
+				}
+			],
+			"name": "_transferFrom",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
 		{
 			"inputs": [
 				{

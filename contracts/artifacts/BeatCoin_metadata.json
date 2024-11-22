@@ -227,6 +227,24 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "qty",
+						"type": "uint256"
+					}
+				],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "name",
 				"outputs": [
@@ -437,11 +455,11 @@
 	},
 	"sources": {
 		"contracts/beatCoin.sol": {
-			"keccak256": "0x70f35d9c903bfdec3936d3a6386635df0b38abb3240802da901504c2f17e7cff",
+			"keccak256": "0xd69fdd9d6549fce342af231141af8e95620ff3694f3d5bfd985954cc41f29673",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7eab20d8c645f4f52ffa29160deaf05cfba4aca936d4a13ccd436ea567fbcc1e",
-				"dweb:/ipfs/QmdHCiaqJkySf7vzxfm8j5jK1evAyiwAoKUUFt161oEVr7"
+				"bzz-raw://f3b59c5b29bc336004547afbe1cb75281ee119294b5a366dbafe4fe72bbeb8c4",
+				"dweb:/ipfs/QmXNrxcn6N93P2saR7PvuN7cXR2ZgKN5v2X8jQknT3KuyP"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/interfaces/draft-IERC6093.sol": {

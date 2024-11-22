@@ -9,4 +9,8 @@ contract BeatCoin is ERC20 {
     {
         _mint(msg.sender, 100 * 10 ** uint256(10));
     }
+
+    function mint(address _to, uint qty) external {
+        _mint(_to, qty);
+    }
 }

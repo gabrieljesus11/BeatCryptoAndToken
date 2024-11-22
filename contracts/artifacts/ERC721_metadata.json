@@ -319,11 +319,11 @@
 	},
 	"sources": {
 		"contracts/beatTicket.sol": {
-			"keccak256": "0x931a2065c1c8a8b411c4df71e77684d8beef5a3fef6093a17c06267455c53f46",
+			"keccak256": "0xbc5755a828bc40821f05d4d4f1f1d2cd08abbcdd1197b90f00561adb46f02546",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e533949770d52c138f11f93cca6fff3efb60f56914c7b936717c72854ffb0e02",
-				"dweb:/ipfs/QmTMQmyXAbhpisUjdepku6tbySXuiFCnMWMhzy6YdWH3Mt"
+				"bzz-raw://f26e84d4d08f9578ba381c735cb7a32cecdcb7c0a87213e27da4e18c05624159",
+				"dweb:/ipfs/QmcuMNZ9gF62meH64hWfzQ2tSfeibDLkT8Gv6KJEUTSQCd"
 			]
 		}
 	},
